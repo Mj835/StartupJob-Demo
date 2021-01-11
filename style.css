@@ -528,3 +528,218 @@ p {
   color: #fff;
   text-decoration: none;
 }
+
+/* Responsive site CSS */
+
+@media screen and (max-width: 991px) {
+  .section {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+
+  .heading {
+    margin-bottom: 18px;
+    font-size: 48px;
+    line-height: 49px;
+  }
+
+  .div-block-3 {
+    max-width: 100%;
+    margin-top: 68px;
+  }
+
+  .heading-3 {
+    font-size: 44px;
+  }
+
+  .section-3 {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .image {
+    max-width: 100%;
+  }
+
+  .image-2 {
+    margin-top: 24px;
+  }
+
+  .quote-cards {
+    margin-bottom: 48px;
+  }
+
+  .div-block-4 {
+    flex-wrap: wrap;
+  }
+
+  .section-2 {
+    padding-top: 80px;
+    padding-bottom: 28px;
+  }
+
+  .div-block-6 {
+    grid-template-columns: 1fr;
+  }
+
+  .section-3 {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+
+  .heading-4 {
+    margin-bottom: 28px;
+  }
+
+  .div-block-7 {
+    flex-wrap: wrap;
+  }
+
+  .image-6 {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .div-block-12 {
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .image-7 {
+    width: 100%;
+  }
+
+  .div-block-13 {
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+    order: 1;
+  }
+
+  .image-8 {
+    width: 100%;
+  }
+
+  .div-block-14 {
+    width: 100%;
+  }
+
+  .div-block-15 {
+    margin-right: 10px;
+    margin-left: 10px;
+    flex-wrap: wrap;
+  }
+
+  .div-block-16 {
+    margin-right: 10px;
+    margin-left: 10px;
+    flex-wrap: wrap;
+  }
+
+  .div-block-17 {
+    flex-wrap: wrap;
+  }
+
+  .form {
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .form-block {
+    width: 70%;
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .section {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .heading-2 {
+    line-height: 31px;
+  }
+
+  .div-block-2 {
+    min-width: auto;
+    flex-direction: column;
+  }
+
+  .image-3 {
+    width: 40px;
+    height: 40px;
+  }
+
+  .div-block-6 {
+    width: 100%;
+    max-width: none;
+  }
+
+  .section-3 {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .image-6 {
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+    align-self: auto;
+  }
+
+  .div-block-12 {
+    width: 100%;
+    flex: 0 auto;
+    text-align: left;
+  }
+
+  .image-7 {
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .div-block-13 {
+    width: 100%;
+    order: 1;
+  }
+
+  .image-8 {
+    width: 100%;
+    max-width: none;
+  }
+
+  .div-block-14 {
+    width: 100%;
+  }
+
+  .div-block-15 {
+    width: 100%;
+    margin-right: 5px;
+    margin-left: 5px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+  }
+
+  .div-block-16 {
+    margin-right: 5px;
+    margin-left: 5px;
+    flex-wrap: wrap;
+  }
+
+  .div-block-17 {
+    margin-right: 5px;
+    margin-left: 5px;
+    flex-wrap: wrap;
+  }
+
+  .form {
+    width: 100%;
+  }
+}
